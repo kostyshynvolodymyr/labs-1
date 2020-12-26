@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    padding-top: 40px;
+    background-color: whitesmoke;
+    font-family: 'Cuprum', sans-serif;
+}
+
+.main {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.title {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+    font-size: 40px;
+    z-index: 1;
+}
+
+.title::before {
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: -25px;
+    z-index: -1;
+    background: #faba44;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+label {
+    margin-right: 18px;
+    color: slategrey;
+    font-size: 26px;
+    line-height: 25px;
+}
+
+.input {
+    width: 60px;
+    height: 30px;
+    margin-bottom: 25px;
+    border: 1px solid rgb(148, 147, 147);
+    border-radius: 5px;
+    outline: none;
+}
+
+.input:focus {
+    border: 1px solid rgb(248, 95, 48);
+}
+
+.button {
+    width: 200px;
+    height: 45px;
+    margin-bottom: 40px;
+    background-color: rgb(255, 169, 57);
+    font-size: 18px;
+    line-height: 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(255, 121, 44);
+}
+
+.answer {
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* трикутник */
+.triangle {
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+	border-top: 80px solid transparent;
+	border-left: 90px solid rgb(248, 95, 48);
+    border-bottom: 80px solid transparent;
+}
