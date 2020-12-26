@@ -25,7 +25,9 @@ body {
     align-items: center;
 }
 
-.block-item__1, .block-item__2, .block-item__3 {
+.block-item__1, 
+.block-item__2, 
+.block-item__3 {
     position: relative;
     width: 30%;
     height: 240px;
@@ -82,7 +84,8 @@ body {
         flex-wrap: wrap;
     }
 
-    .block-item__1, .block-item__2 {
+    .block-item__1, 
+    .block-item__2 {
         width: 46.9%;
         margin-bottom: 17px;   
     }
@@ -101,7 +104,9 @@ body {
         flex-wrap: wrap;
     }
 
-    .block-item__1, .block-item__2, .block-item__3 {
+    .block-item__1, 
+    .block-item__2, 
+    .block-item__3 {
         width: 80%;
         margin-bottom: 25px;
     }
